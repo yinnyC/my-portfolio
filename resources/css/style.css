@@ -12,7 +12,7 @@
 .pmg-background-img:after{
   content: "";
   position: absolute;
-  background-image: url("/resources/images/programing.jpg");
+  background-image: url("../images/programing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -39,7 +39,7 @@
 .mkt-background-img:after{
   content: "";
   position: absolute;
-  background-image: url("/resources/images/marketing.jpg");
+  background-image: url("../images/marketing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -60,7 +60,7 @@
 .stu-background-img:after{
   content: "";
   position: absolute;
-  background-image: url("/resources/images/startup.jpg");
+  background-image: url("../images/startup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
