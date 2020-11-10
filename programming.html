@@ -23,8 +23,14 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="programming.html">Work</a>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#my-work" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Experiences
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="programming.html">Programming</a>
+							<a class="dropdown-item disabled" href="marketing.html">Marketing</a>
+							<a class="dropdown-item" href="startup.html">Start-Ups</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#contact-me">Contact</a>
@@ -33,24 +39,24 @@
 			</div>
 		</nav>
 		<!-- Work -->
-		<div id="my-work"class="container pt-5 pb-3">
-			<h2 class="mt-4 ml-auto mr-auto text-center border-bottom pb-3 border-danger">Check Out My Work</h2>
-			<div class="row mt-3 d-flex ml-auto mr-auto justify-content-center">
-						<div class="card m-3" style="width: 22rem;">
-							<img src="resources/images/BodyMode1.gif" class="card-img-top" alt="Super Mario Game" style="height: 200px;">
+		<div id="my-work"class="container pt-5">
+			<h2 class="mt-4 ml-auto mr-auto text-center border-bottom border-danger">Check Out My Work</h2>
+			<div class="card-columns mt-4">
+						<div class="card">
+							<img src="resources/images/BodyMode1.gif" class="card-img-top" alt="Super Mario Game">
 							<div class="card-body d-flex flex-column">
 								<h5 class="card-title mb-1">Super Mario Game</h5>
 								<div class="mb-1">
-									<span class="badge badge-primary mr-1">P5.js</span>
-									<span class="badge badge-info mr-1">Teachable Machine</span>
-									<span class="badge badge-dark mr-1">Voice Recognition</span>
+									<span class="badge badge-primary">P5.js</span>
+									<span class="badge badge-info">Teachable Machine</span>
+									<span class="badge badge-info">Voice Recognition</span>
 								</div>
 								<p class="card-text">You can control the idle with your own body gesture or voice sounds.
 									No controler needed!</p>
 								<a href="https://github.com/yinnyC/body-sound-control-MarioGame" class="btn btn-primary mt-auto ml-auto">Github Repo</a>
 							</div>
 						</div>
-						<div class="card m-3" style="width: 22rem;">
+						<div class="card">
 							<img src="resources/images/index.gif" class="card-img-top" alt="PumpkinPi">
 							<div class="card-body d-flex flex-column">
 								<h5 class="card-title">Pumpkin Pi</h5>
@@ -62,6 +68,61 @@
 								<p class="card-text">An interactive Jack-o-lantern powered by raspberry pi, that will play a spooky sound whenever it detects someone walks by and take a picture of whom it scares. Later on, the picture will be uploaded onto a website, like a photo booth of the roller coaster.
 								</p>
 								<a href="https://github.com/yinnyC/pumpkin_Pi" class="btn btn-primary mt-auto ml-auto">Github Repo</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="resources/images/covid.png" class="card-img-top" alt="covid">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Covid-19 Info Dashboard</h5>
+								<div class="mb-1">
+									<span class="badge badge-danger mr-1">python</span>
+									<span class="badge badge-light mr-1">Web Scraping</span>
+									<span class="badge badge-light mr-1">tkinter GUI</span>
+								</div>
+								<p class="card-text">A program that lets the user search for Covid-19 data of countries of the world and can plot out graphics to compare cases.
+								</p>
+								<a href="https://github.com/yinnyC/Covid-19_info_dashboard" class="btn btn-primary mt-auto ml-auto">Github Repo</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="resources/images/news.jpg" class="card-img-top" alt="news headline">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">News Headlines Fetcher</h5>
+								<div class="mb-1">
+									<span class="badge badge-danger mr-1">python</span>
+									<span class="badge badge-light mr-1">API request</span>
+									<span class="badge badge-light mr-1">tkinter GUI</span>
+								</div>
+								<p class="card-text">A program that allows user to choose news resources and then will show then the newest top 10 news headlines and links
+								</p>
+								<a href="https://github.com/yinnyC/topNewsHeadlines" class="btn btn-primary mt-auto ml-auto">Github Repo</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="resources/images/Space_Shooter_game.png" class="card-img-top" alt="space shooter">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Space Shooter</h5>
+								<div class="mb-1">
+									<span class="badge badge-danger mr-1">python</span>
+									<span class="badge badge-light mr-1">Pygame</span>
+								</div>
+								<p class="card-text"> A space shooter game that was built with pygame to perfrom the object-oriented programming usage
+								</p>
+								<a href="https://github.com/yinnyC/topNewsHeadlines" class="btn btn-primary mt-auto ml-auto">Github Repo</a>
+							</div>
+						</div>
+						<div class="card">
+							<img src="resources/images/few_final.png" class="card-img-top" alt="Dynamic Webpage">
+							<div class="card-body d-flex flex-column">
+								<h5 class="card-title">Dynamic Webpage</h5>
+								<div class="mb-1">
+									<span class="badge badge-danger mr-1">HTML</span>
+									<span class="badge badge-danger mr-1">css</span>
+									<span class="badge badge-danger mr-1">Javascript</span>
+								</div>
+								<p class="card-text"> A space shooter game that was built with pygame to perfrom the object-oriented programming usage
+								</p>
+								<a href="https://github.com/yinnyC/FEW_final_Assessment" class="btn btn-primary mt-auto ml-auto">Github Repo</a>
 							</div>
 						</div>
 			</div>
